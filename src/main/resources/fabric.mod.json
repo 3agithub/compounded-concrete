@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "compoundedconcrete",
+	"version": "${version}",
+	"name": "Compounded Concrete",
+	"description": "Adds more concrete colors",
+	"authors": [
+		"3A"
+	],
+	"contact": {
+		"homepage": "https://github.com/3AGitHub/",
+		"sources": "https://github.com/3AGitHub/compounded-concrete"
+	},
+	"license": "CC BY-NC-SA 4.0",
+	"icon": "assets/compoundedconcrete/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.threeey.compoundedconcrete.CompoundedConcrete"
+		],
+		"client": [
+			"net.threeey.compoundedconcrete.CompoundedConcreteClient"
+		],
+		"fabric-datagen": [
+			"net.threeey.compoundedconcrete.CompoundedConcreteDataGenerator"
+		]
+	},
+	"mixins": [
+		"compoundedconcrete.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.12",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
