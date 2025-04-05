@@ -28,22 +28,16 @@ public abstract class DyeColorMixin {
 	}
 
 	@Unique
-	private static void compoundedconcrete$addColor(List<DyeColor> dyeColors, String name, int color, MapColor mapColor, int fireworkColor, int signColor) {
+	private static void compounded_concrete$addColor(List<DyeColor> dyeColors, String name, int color, MapColor mapColor, int fireworkColor, int signColor) {
 		dyeColors.add(invokeNew(name.toUpperCase(Locale.ROOT), dyeColors.getLast().ordinal() + 1, dyeColors.getLast().getId() + 1, name, color, mapColor, fireworkColor, signColor));
 	}
 
 	@Inject(method = "<clinit>", at = @At(value = "FIELD", target = "Lnet/minecraft/util/DyeColor;field_7953:[Lnet/minecraft/util/DyeColor;", shift = At.Shift.AFTER, opcode = Opcodes.PUTSTATIC))
-	private static void addDyeColors(CallbackInfo ci) {
+	private static void addWhiteDyeColors(CallbackInfo ci) {
 		ArrayList<DyeColor> dyeColors = Lists.newArrayList(field_7953);
 
-		// White + Red
-		compoundedconcrete$addColor(dyeColors, "red_white_71", 0xb94841, MapColor.RED, 0xbb4945, 0xb94841);
-		compoundedconcrete$addColor(dyeColors, "red_white_62", 0xc2625c, MapColor.RED, 0xc2615d, 0xc2625c);
-		compoundedconcrete$addColor(dyeColors, "red_white_53", 0xcb7c77, MapColor.RED, 0xca7976, 0xcb7c77);
-		compoundedconcrete$addColor(dyeColors, "red_white_44", 0xd59792, MapColor.RED, 0xd2918e, 0xd59792);
-		compoundedconcrete$addColor(dyeColors, "red_white_35", 0xdeb1ad, MapColor.RED, 0xd9a8a7, 0xdeb1ad);
-		compoundedconcrete$addColor(dyeColors, "red_white_26", 0xe7cbc8, MapColor.RED, 0xe1c0bf, 0xe7cbc8);
-		compoundedconcrete$addColor(dyeColors, "red_white_17", 0xf0e5e3, MapColor.RED, 0xe8d8d8, 0xf0e5e3);
+		compounded_concrete$addColor(dyeColors, "white_light_gray_12", 0xBCBEB9, MapColor.LIGHT_GRAY, 0xC2C2C2, 0xBCBEB9);
+		compounded_concrete$addColor(dyeColors, "white_light_gray_13", 0xB4B6B1, MapColor.LIGHT_GRAY, 0xBCBCBC, 0xB4B6B1);
 
 		field_7953 = dyeColors.toArray(DyeColor[]::new);
 	}

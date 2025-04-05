@@ -1,0 +1,10 @@
+{
+  "item.compoundedconcrete.white_lightgray_dye_12": "Light Gray Dye with a mix of White",
+  "item.compoundedconcrete.white_lightgray_dye_13": "Light Gray Dye with a mix of White",
+
+  "block.compoundedconcrete.white_lightgray_shulkerbox_12": "Light Gray Shulker Box with a mix of White",
+  "block.compoundedconcrete.white_lightgray_shulkerbox_13": "Light Gray Shulker Box with a mix of White",
+
+  "tooltip.compoundedconcrete.white_lightgray_12": "White : Light Gray ratio: 1 : 2",
+  "tooltip.compoundedconcrete.white_lightgray_13": "White : Light Gray ratio: 1 : 3"
+}
