@@ -42,6 +42,20 @@ public abstract class DyeColorMixin {
 		compounded_concrete$addColor(dyeColors, "white_lightgray_15", 0xACADA8, MapColor.LIGHT_GRAY, 0xB7B7B7, 0xACADA8);
 		compounded_concrete$addColor(dyeColors, "white_lightgray_16", 0xAAABA6, MapColor.LIGHT_GRAY, 0xB5B5B5, 0xAAABA6);
 		compounded_concrete$addColor(dyeColors, "white_lightgray_17", 0xA9A9A4, MapColor.LIGHT_GRAY, 0xB4B4B4, 0xA9A9A4);
+		compounded_concrete$addColor(dyeColors, "white_lightgray_21", 0xDADEDC, MapColor.WHITE, 0xD9D9D9, 0xDADEDC);
+		compounded_concrete$addColor(dyeColors, "white_lightgray_23", 0xC2C4C0, MapColor.LIGHT_GRAY, 0xC7C7C7, 0xC2C4C0);
+		compounded_concrete$addColor(dyeColors, "white_lightgray_25", 0xB7B9B4, MapColor.LIGHT_GRAY, 0xBFBFBF, 0xB7B9B4);
+		compounded_concrete$addColor(dyeColors, "white_lightgray_31", 0xE2E7E4, MapColor.WHITE, 0xDFDFDF, 0xE2E7E4);
+		compounded_concrete$addColor(dyeColors, "white_lightgray_32", 0xD4D8D5, MapColor.WHITE, 0xD4D4D4, 0xD4D8D5);
+		compounded_concrete$addColor(dyeColors, "white_lightgray_34", 0xC4C7C3, MapColor.LIGHT_GRAY, 0xC9C9C9, 0xC4C7C3);
+		compounded_concrete$addColor(dyeColors, "white_lightgray_35", 0xC0C2BE, MapColor.LIGHT_GRAY, 0xC5C5C5, 0xC0C2BE);
+		compounded_concrete$addColor(dyeColors, "white_lightgray_41", 0xE7EBE9, MapColor.WHITE, 0xE2E2E2, 0xE7EBE9);
+		compounded_concrete$addColor(dyeColors, "white_lightgray_43", 0xD2D5D2, MapColor.WHITE, 0xD2D2D2, 0xD2D5D2);
+		compounded_concrete$addColor(dyeColors, "white_lightgray_51", 0xEAEFED, MapColor.WHITE, 0xE5E5E5, 0xEAEFED);
+		compounded_concrete$addColor(dyeColors, "white_lightgray_52", 0xDFE3E1, MapColor.WHITE, 0xDCDCDC, 0xDFE3E1);
+		compounded_concrete$addColor(dyeColors, "white_lightgray_53", 0xD7DAD7, MapColor.WHITE, 0xD8D8D8, 0xD7DAD7);
+		compounded_concrete$addColor(dyeColors, "white_lightgray_61", 0xECF1EF, MapColor.WHITE, 0xE6E6E6, 0xECF1EF);
+		compounded_concrete$addColor(dyeColors, "white_lightgray_71", 0xEEF3F1, MapColor.WHITE, 0xE7E7E7, 0xEEF3F1);
 
 		field_7953 = dyeColors.toArray(DyeColor[]::new);
 	}

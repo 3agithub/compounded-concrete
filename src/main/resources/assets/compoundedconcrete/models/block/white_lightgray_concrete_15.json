@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "compoundedconcrete:block/white_lightgray_concrete_15"
-  }
-}
