@@ -1,10 +1,35 @@
 {
+  "item.compoundedconcrete.colored_crafter": "Colored Crafter",
+  "item.compoundedconcrete.filled_colored_crafter": "Filled Colored Crafter",
+  "item.compoundedconcrete.dye_bit": "Bit of Dye",
+
   "item.compoundedconcrete.white_lightgray_dye_12": "Light Gray Dye with a mix of White",
   "item.compoundedconcrete.white_lightgray_dye_13": "Light Gray Dye with a mix of White",
+  "item.compoundedconcrete.white_lightgray_dye_14": "Light Gray Dye with a mix of White",
+  "item.compoundedconcrete.white_lightgray_dye_15": "Light Gray Dye with a mix of White",
+  "item.compoundedconcrete.white_lightgray_dye_16": "Light Gray Dye with a mix of White",
+  "item.compoundedconcrete.white_lightgray_dye_17": "Light Gray Dye with a mix of White",
 
-  "block.compoundedconcrete.white_lightgray_shulkerbox_12": "Light Gray Shulker Box with a mix of White",
-  "block.compoundedconcrete.white_lightgray_shulkerbox_13": "Light Gray Shulker Box with a mix of White",
+  "block.compoundedconcrete.white_lightgray_concrete_12": "Light Gray Concrete with a mix of White",
+  "block.compoundedconcrete.white_lightgray_concrete_13": "Light Gray Concrete with a mix of White",
+  "block.compoundedconcrete.white_lightgray_concrete_14": "Light Gray Concrete with a mix of White",
+  "block.compoundedconcrete.white_lightgray_concrete_15": "Light Gray Concrete with a mix of White",
+  "block.compoundedconcrete.white_lightgray_concrete_16": "Light Gray Concrete with a mix of White",
+  "block.compoundedconcrete.white_lightgray_concrete_17": "Light Gray Concrete with a mix of White",
+
+  "itemgroup.compoundedconcrete.base": "Compounded Concrete - Base Items",
+  "itemgroup.compoundedconcrete.dyes": "Compounded Concrete - Dyes",
+  "itemgroup.compoundedconcrete.concrete": "Compounded Concrete - Concrete",
+
+
+  "tooltip.compoundedconcrete.colored_crafter": "Allows you to craft Colored items. Fill with any dye to use.",
+  "tooltip.compoundedconcrete.filled_colored_crafter": "Allows you to craft Colored items. Filled with dyes.",
+  "tooltip.compoundedconcrete.dye_bit": "Use this to fill up your Colored Crafter.",
 
   "tooltip.compoundedconcrete.white_lightgray_12": "White : Light Gray ratio: 1 : 2",
-  "tooltip.compoundedconcrete.white_lightgray_13": "White : Light Gray ratio: 1 : 3"
-}
+  "tooltip.compoundedconcrete.white_lightgray_13": "White : Light Gray ratio: 1 : 3",
+  "tooltip.compoundedconcrete.white_lightgray_14": "White : Light Gray ratio: 1 : 4",
+  "tooltip.compoundedconcrete.white_lightgray_15": "White : Light Gray ratio: 1 : 5",
+  "tooltip.compoundedconcrete.white_lightgray_16": "White : Light Gray ratio: 1 : 6",
+  "tooltip.compoundedconcrete.white_lightgray_17": "White : Light Gray ratio: 1 : 7"
+  }

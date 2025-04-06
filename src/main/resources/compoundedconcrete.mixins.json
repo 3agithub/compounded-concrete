@@ -3,7 +3,8 @@
   "package": "net.threeey.compoundedconcrete.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "DyeColorMixin"
+    "DyeColorMixin",
+    "ShulkerBoxBlockMixin"
   ],
   "injectors": {
     "defaultRequire": 1

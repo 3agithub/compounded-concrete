@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "compoundedconcrete:dyes"
+    }
+  ],
+  "result": {
+    "id": "compoundedconcrete:dye_bit",
+    "count": 16
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "compoundedconcrete:concrete"
+    }
+  ],
+  "result": {
+    "id": "white_concrete",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "compoundedconcrete:dye_bit"
+    },
+    {
+      "item": "compoundedconcrete:colored_crafter"
+    }
+  ],
+  "result": {
+    "id": "compoundedconcrete:filled_colored_crafter"
+  }
+}

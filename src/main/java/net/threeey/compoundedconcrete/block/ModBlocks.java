@@ -2,10 +2,7 @@ package net.threeey.compoundedconcrete.block;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
-import net.minecraft.block.MapColor;
-import net.minecraft.block.ShulkerBoxBlock;
-import net.minecraft.block.entity.ShulkerBoxBlockEntity;
-import net.minecraft.block.piston.PistonBehavior;
+import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -16,40 +13,88 @@ import net.minecraft.text.Text;
 import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 import net.threeey.compoundedconcrete.CompoundedConcrete;
-import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
 public class ModBlocks {
 
-    public static final Block WHITE_LIGHTGRAY_SHULKER_BOX_12 = registerBlock("white_lightgray_shulkerbox_12",
-    createShulkerBoxBlock(DyeColor.valueOf("white_light_gray_12"), MapColor.LIGHT_GRAY, "tooltip.compoundedconcrete.white_lightgray_12"));
+    public static final Block WHITE_LIGHTGRAY_CONCRETE_12 = registerBlock("white_lightgray_concrete_12",
+            new Block(AbstractBlock.Settings.create()
+                    .mapColor(DyeColor.valueOf("WHITE_LIGHTGRAY_12"))
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(1.8F)) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_12"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+        });
 
-    public static final Block WHITE_LIGHTGRAY_SHULKER_BOX_13 = registerBlock("white_lightgray_shulkerbox_13",
-            createShulkerBoxBlock(DyeColor.valueOf("white_light_gray_13"), MapColor.LIGHT_GRAY, "tooltip.compoundedconcrete.white_lightgray_13"));
+    public static final Block WHITE_LIGHTGRAY_CONCRETE_13 = registerBlock("white_lightgray_concrete_13",
+            new Block(AbstractBlock.Settings.create()
+                    .mapColor(DyeColor.valueOf("WHITE_LIGHTGRAY_13"))
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(1.8F)) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_13"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
 
-    private static final AbstractBlock.ContextPredicate SHULKER_BOX_SUFFOCATES_PREDICATE = (state, world, pos) -> !(world.getBlockEntity(pos) instanceof ShulkerBoxBlockEntity shulkerBoxBlockEntity) || shulkerBoxBlockEntity.suffocates();
+    public static final Block WHITE_LIGHTGRAY_CONCRETE_14 = registerBlock("white_lightgray_concrete_14",
+            new Block(AbstractBlock.Settings.create()
+                    .mapColor(DyeColor.valueOf("WHITE_LIGHTGRAY_14"))
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(1.8F)) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_14"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
 
-    private static Block createShulkerBoxBlock(@Nullable DyeColor color, MapColor mapColor, String tooltipTranslatable) {
-        return new ShulkerBoxBlock(
-                color,
-                AbstractBlock.Settings.create()
-                        .mapColor(mapColor)
-                        .solid()
-                        .strength(2.0F)
-                        .dynamicBounds()
-                        .nonOpaque()
-                        .suffocates(SHULKER_BOX_SUFFOCATES_PREDICATE)
-                        .blockVision(SHULKER_BOX_SUFFOCATES_PREDICATE)
-                        .pistonBehavior(PistonBehavior.DESTROY)
-        ) {
-            @Override
-            public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
-                tooltip.add(Text.translatable(tooltipTranslatable));
-                super.appendTooltip(stack, context, tooltip, options);
-            }
-        };
-    }
+    public static final Block WHITE_LIGHTGRAY_CONCRETE_15 = registerBlock("white_lightgray_concrete_15",
+            new Block(AbstractBlock.Settings.create()
+                    .mapColor(DyeColor.valueOf("WHITE_LIGHTGRAY_15"))
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(1.8F)) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_15"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
+
+    public static final Block WHITE_LIGHTGRAY_CONCRETE_16 = registerBlock("white_lightgray_concrete_16",
+            new Block(AbstractBlock.Settings.create()
+                    .mapColor(DyeColor.valueOf("WHITE_LIGHTGRAY_16"))
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(1.8F)) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_16"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
+
+    public static final Block WHITE_LIGHTGRAY_CONCRETE_17 = registerBlock("white_lightgray_concrete_17",
+            new Block(AbstractBlock.Settings.create()
+                    .mapColor(DyeColor.valueOf("WHITE_LIGHTGRAY_17"))
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(1.8F)) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_17"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

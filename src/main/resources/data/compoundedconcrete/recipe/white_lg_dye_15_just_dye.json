@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "white_dye"
+    },
+    {
+      "item": "light_gray_dye"
+    },
+    {
+      "item": "light_gray_dye"
+    },
+    {
+      "item": "light_gray_dye"
+    },
+    {
+      "item": "light_gray_dye"
+    },
+    {
+      "item": "light_gray_dye"
+    },
+    {
+      "item": "compoundedconcrete:filled_colored_crafter"
+    }
+  ],
+  "result": {
+    "id": "compoundedconcrete:white_lightgray_dye_15",
+    "count": 6
+  }
+}
