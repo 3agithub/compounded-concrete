@@ -139,6 +139,35 @@ public class ModItemGroups {
                     })
                     .build());
 
+    public static final ItemGroup CARPET = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(CompoundedConcrete.MOD_ID, "cc_wool"),
+            FabricItemGroup.builder()
+                    .icon(() -> new ItemStack(ModBlocks.WHITE_LIGHTGRAY_CARPET_12))
+                    .displayName(Text.translatable("itemgroup.compoundedconcrete.carpet"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_12);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_13);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_14);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_15);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_16);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_17);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_21);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_23);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_25);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_31);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_32);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_34);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_35);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_41);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_43);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_51);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_52);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_53);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_61);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_71);
+                    })
+                    .build());
+
     public static void registerItemGroups() {
         CompoundedConcrete.LOGGER.info("Registering Item Groups for Compounded Concrete");
     }

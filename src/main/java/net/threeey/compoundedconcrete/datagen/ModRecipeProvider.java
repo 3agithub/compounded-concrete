@@ -446,6 +446,66 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerCCModdedWoolRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_WOOL_71,
                 ModItems.WHITE_LIGHTGRAY_DYE_71, "white_lg_wool_71_m");
 
+        offerCarpetRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_CARPET_12, ModBlocks.WHITE_LIGHTGRAY_WOOL_12);
+
+        offerCarpetRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_CARPET_13, ModBlocks.WHITE_LIGHTGRAY_WOOL_13);
+
+        offerCarpetRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_CARPET_14, ModBlocks.WHITE_LIGHTGRAY_WOOL_14);
+
+        offerCarpetRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_CARPET_15, ModBlocks.WHITE_LIGHTGRAY_WOOL_15);
+
+        offerCarpetRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_CARPET_16, ModBlocks.WHITE_LIGHTGRAY_WOOL_16);
+
+        offerCarpetRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_CARPET_17, ModBlocks.WHITE_LIGHTGRAY_WOOL_17);
+
+        offerCarpetRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_CARPET_21, ModBlocks.WHITE_LIGHTGRAY_WOOL_21);
+
+        offerCarpetRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_CARPET_23, ModBlocks.WHITE_LIGHTGRAY_WOOL_23);
+
+        offerCarpetRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_CARPET_25, ModBlocks.WHITE_LIGHTGRAY_WOOL_25);
+
+        offerCarpetRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_CARPET_31, ModBlocks.WHITE_LIGHTGRAY_WOOL_31);
+
+        offerCarpetRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_CARPET_32, ModBlocks.WHITE_LIGHTGRAY_WOOL_32);
+
+        offerCarpetRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_CARPET_34, ModBlocks.WHITE_LIGHTGRAY_WOOL_34);
+
+        offerCarpetRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_CARPET_35, ModBlocks.WHITE_LIGHTGRAY_WOOL_35);
+
+        offerCarpetRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_CARPET_41, ModBlocks.WHITE_LIGHTGRAY_WOOL_41);
+
+        offerCarpetRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_CARPET_43, ModBlocks.WHITE_LIGHTGRAY_WOOL_43);
+
+        offerCarpetRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_CARPET_51, ModBlocks.WHITE_LIGHTGRAY_WOOL_51);
+
+        offerCarpetRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_CARPET_52, ModBlocks.WHITE_LIGHTGRAY_WOOL_52);
+
+        offerCarpetRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_CARPET_53, ModBlocks.WHITE_LIGHTGRAY_WOOL_53);
+
+        offerCarpetRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_CARPET_61, ModBlocks.WHITE_LIGHTGRAY_WOOL_61);
+
+        offerCarpetRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_CARPET_71, ModBlocks.WHITE_LIGHTGRAY_WOOL_71);
+
     }
 
     public static void offerCCDyesRecipe(RecipeExporter exporter, ItemConvertible output, ItemConvertible dye1, int r1, ItemConvertible dye2, int r2, int multiplier, String id) {

@@ -57,26 +57,26 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_61);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_71);
 
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_12);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_13);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_14);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_15);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_16);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_17);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_21);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_23);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_25);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_31);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_32);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_34);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_35);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_41);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_43);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_51);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_52);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_53);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_61);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_71);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_12, ModBlocks.WHITE_LIGHTGRAY_CARPET_12);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_13, ModBlocks.WHITE_LIGHTGRAY_CARPET_13);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_14, ModBlocks.WHITE_LIGHTGRAY_CARPET_14);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_15, ModBlocks.WHITE_LIGHTGRAY_CARPET_15);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_16, ModBlocks.WHITE_LIGHTGRAY_CARPET_16);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_17, ModBlocks.WHITE_LIGHTGRAY_CARPET_17);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_21, ModBlocks.WHITE_LIGHTGRAY_CARPET_21);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_23, ModBlocks.WHITE_LIGHTGRAY_CARPET_23);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_25, ModBlocks.WHITE_LIGHTGRAY_CARPET_25);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_31, ModBlocks.WHITE_LIGHTGRAY_CARPET_31);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_32, ModBlocks.WHITE_LIGHTGRAY_CARPET_32);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_34, ModBlocks.WHITE_LIGHTGRAY_CARPET_34);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_35, ModBlocks.WHITE_LIGHTGRAY_CARPET_35);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_41, ModBlocks.WHITE_LIGHTGRAY_CARPET_41);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_43, ModBlocks.WHITE_LIGHTGRAY_CARPET_43);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_51, ModBlocks.WHITE_LIGHTGRAY_CARPET_51);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_52, ModBlocks.WHITE_LIGHTGRAY_CARPET_52);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_53, ModBlocks.WHITE_LIGHTGRAY_CARPET_53);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_61, ModBlocks.WHITE_LIGHTGRAY_CARPET_61);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_71, ModBlocks.WHITE_LIGHTGRAY_CARPET_71);
     }
 
     @Override

@@ -1,8 +1,6 @@
 package net.threeey.compoundedconcrete.block;
 
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.ConcretePowderBlock;
+import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -813,6 +811,285 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create()
                     .mapColor(DyeColor.valueOf("WHITE_LIGHTGRAY_71"))
                     .instrument(NoteBlockInstrument.GUITAR).strength(0.8F).sounds(BlockSoundGroup.WOOL).burnable()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_71"));
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            });
+
+    public static final Block WHITE_LIGHTGRAY_CARPET_12 = registerBlock("white_lightgray_carpet_12",
+            new DyedCarpetBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_12"), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.WHITE)
+                    .strength(0.1F)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .burnable()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_12"));
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            }
+    );
+
+    public static final Block WHITE_LIGHTGRAY_CARPET_13 = registerBlock("white_lightgray_carpet_13",
+            new DyedCarpetBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_13"), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.WHITE)
+                    .strength(0.1F)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .burnable()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_13"));
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            }
+    );
+
+    public static final Block WHITE_LIGHTGRAY_CARPET_14 = registerBlock("white_lightgray_carpet_14",
+            new DyedCarpetBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_14"), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.WHITE)
+                    .strength(0.1F)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .burnable()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_14"));
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            }
+    );
+
+    public static final Block WHITE_LIGHTGRAY_CARPET_15 = registerBlock("white_lightgray_carpet_15",
+            new DyedCarpetBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_15"), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.WHITE)
+                    .strength(0.1F)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .burnable()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_15"));
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            }
+    );
+
+    public static final Block WHITE_LIGHTGRAY_CARPET_16 = registerBlock("white_lightgray_carpet_16",
+            new DyedCarpetBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_16"), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.WHITE)
+                    .strength(0.1F)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .burnable()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_16"));
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            }
+    );
+
+    public static final Block WHITE_LIGHTGRAY_CARPET_17 = registerBlock("white_lightgray_carpet_17",
+            new DyedCarpetBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_17"), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.WHITE)
+                    .strength(0.1F)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .burnable()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_17"));
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            }
+    );
+
+    public static final Block WHITE_LIGHTGRAY_CARPET_21 = registerBlock("white_lightgray_carpet_21",
+            new DyedCarpetBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_21"), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.WHITE)
+                    .strength(0.1F)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .burnable()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_21"));
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            }
+    );
+
+    public static final Block WHITE_LIGHTGRAY_CARPET_23 = registerBlock("white_lightgray_carpet_23",
+            new DyedCarpetBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_23"), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.WHITE)
+                    .strength(0.1F)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .burnable()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_23"));
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            }
+    );
+
+    public static final Block WHITE_LIGHTGRAY_CARPET_25 = registerBlock("white_lightgray_carpet_25",
+            new DyedCarpetBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_25"), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.WHITE)
+                    .strength(0.1F)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .burnable()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_25"));
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            }
+    );
+
+    public static final Block WHITE_LIGHTGRAY_CARPET_31 = registerBlock("white_lightgray_carpet_31",
+            new DyedCarpetBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_31"), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.WHITE)
+                    .strength(0.1F)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .burnable()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_31"));
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            }
+    );
+
+    public static final Block WHITE_LIGHTGRAY_CARPET_32 = registerBlock("white_lightgray_carpet_32",
+            new DyedCarpetBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_32"), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.WHITE)
+                    .strength(0.1F)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .burnable()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_32"));
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            }
+    );
+
+    public static final Block WHITE_LIGHTGRAY_CARPET_34 = registerBlock("white_lightgray_carpet_34",
+            new DyedCarpetBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_34"), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.WHITE)
+                    .strength(0.1F)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .burnable()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_34"));
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            }
+    );
+
+    public static final Block WHITE_LIGHTGRAY_CARPET_35 = registerBlock("white_lightgray_carpet_35",
+            new DyedCarpetBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_35"), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.WHITE)
+                    .strength(0.1F)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .burnable()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_35"));
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            }
+    );
+
+    public static final Block WHITE_LIGHTGRAY_CARPET_41 = registerBlock("white_lightgray_carpet_41",
+            new DyedCarpetBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_41"), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.WHITE)
+                    .strength(0.1F)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .burnable()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_41"));
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            }
+    );
+
+    public static final Block WHITE_LIGHTGRAY_CARPET_43 = registerBlock("white_lightgray_carpet_43",
+            new DyedCarpetBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_43"), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.WHITE)
+                    .strength(0.1F)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .burnable()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_43"));
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            }
+    );
+
+    public static final Block WHITE_LIGHTGRAY_CARPET_51 = registerBlock("white_lightgray_carpet_51",
+            new DyedCarpetBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_51"), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.WHITE)
+                    .strength(0.1F)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .burnable()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_51"));
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            }
+    );
+
+    public static final Block WHITE_LIGHTGRAY_CARPET_52 = registerBlock("white_lightgray_carpet_52",
+            new DyedCarpetBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_52"), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.WHITE)
+                    .strength(0.1F)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .burnable()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_52"));
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            }
+    );
+
+    public static final Block WHITE_LIGHTGRAY_CARPET_53 = registerBlock("white_lightgray_carpet_53",
+            new DyedCarpetBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_53"), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.WHITE)
+                    .strength(0.1F)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .burnable()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_53"));
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            }
+    );
+
+    public static final Block WHITE_LIGHTGRAY_CARPET_61 = registerBlock("white_lightgray_carpet_61",
+            new DyedCarpetBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_61"), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.WHITE)
+                    .strength(0.1F)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .burnable()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_61"));
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            }
+    );
+
+    public static final Block WHITE_LIGHTGRAY_CARPET_71 = registerBlock("white_lightgray_carpet_71",
+            new DyedCarpetBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_71"), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.WHITE)
+                    .strength(0.1F)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .burnable()) {
                 @Override
                 public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
                     tooltip.add(Text.translatable("tooltip.compoundedconcrete.white_lightgray_71"));

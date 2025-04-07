@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "compoundedconcrete:block/white_lightgray_wool_25"
+  }
+}

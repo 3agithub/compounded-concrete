@@ -170,5 +170,49 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(ModTags.Blocks.ALL_WOOL)
                 .addTag(ModTags.Blocks.CC_WOOL)
                 .addTag(ModTags.Blocks.VANILLA_WOOL);
+
+        getOrCreateTagBuilder(ModTags.Blocks.CC_CARPET)
+                .add(Blocks.WHITE_CARPET)
+                .add(Blocks.LIGHT_GRAY_CARPET)
+                .add(Blocks.GRAY_CARPET)
+                .add(Blocks.BLACK_CARPET)
+                .add(Blocks.BROWN_CARPET)
+                .add(Blocks.RED_CARPET)
+                .add(Blocks.ORANGE_CARPET)
+                .add(Blocks.YELLOW_CARPET)
+                .add(Blocks.LIME_CARPET)
+                .add(Blocks.GREEN_CARPET)
+                .add(Blocks.CYAN_CARPET)
+                .add(Blocks.LIGHT_BLUE_CARPET)
+                .add(Blocks.BLUE_CARPET)
+                .add(Blocks.PURPLE_CARPET)
+                .add(Blocks.MAGENTA_CARPET)
+                .add(Blocks.PINK_CARPET);
+
+        getOrCreateTagBuilder(ModTags.Blocks.VANILLA_CARPET)
+                .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_12)
+                .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_13)
+                .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_14)
+                .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_15)
+                .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_16)
+                .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_17)
+                .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_21)
+                .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_23)
+                .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_25)
+                .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_31)
+                .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_32)
+                .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_34)
+                .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_35)
+                .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_41)
+                .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_43)
+                .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_51)
+                .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_52)
+                .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_53)
+                .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_61)
+                .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_71);
+
+        getOrCreateTagBuilder(ModTags.Blocks.ALL_CARPET)
+                .addTag(ModTags.Blocks.CC_CARPET)
+                .addTag(ModTags.Blocks.VANILLA_CARPET);
     }
 }

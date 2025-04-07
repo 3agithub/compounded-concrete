@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "compoundedconcrete:white_lightgray_carpet_15"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_lightgray_wool_15": {
+      "conditions": {
+        "items": [
+          {
+            "items": "compoundedconcrete:white_lightgray_wool_15"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_white_lightgray_wool_15"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "compoundedconcrete:white_lightgray_carpet_15"
+    ]
+  }
+}

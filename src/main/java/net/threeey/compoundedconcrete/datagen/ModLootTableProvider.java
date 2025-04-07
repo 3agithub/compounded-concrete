@@ -76,5 +76,26 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_53);
         addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_61);
         addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_71);
+
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_12);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_13);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_14);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_15);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_16);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_17);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_21);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_23);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_25);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_31);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_32);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_34);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_35);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_41);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_43);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_51);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_52);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_53);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_61);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_71);
     }
 }
