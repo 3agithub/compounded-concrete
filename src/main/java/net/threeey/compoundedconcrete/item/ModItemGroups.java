@@ -81,6 +81,35 @@ public class ModItemGroups {
                     })
                     .build());
 
+    public static final ItemGroup POWDER = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(CompoundedConcrete.MOD_ID, "cc_powder"),
+            FabricItemGroup.builder()
+                    .icon(() -> new ItemStack(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_12))
+                    .displayName(Text.translatable("itemgroup.compoundedconcrete.powder"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_POWDER_12);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_POWDER_13);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_POWDER_14);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_POWDER_15);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_POWDER_16);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_POWDER_17);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_POWDER_21);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_POWDER_23);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_POWDER_25);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_POWDER_31);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_POWDER_32);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_POWDER_34);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_POWDER_35);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_POWDER_41);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_POWDER_43);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_POWDER_51);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_POWDER_52);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_POWDER_53);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_POWDER_61);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_POWDER_71);
+                    })
+                    .build());
+
     public static final ItemGroup WOOL = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(CompoundedConcrete.MOD_ID, "cc_wool"),
             FabricItemGroup.builder()

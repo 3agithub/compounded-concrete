@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "cc_concrete",
   "ingredients": [
     {
       "item": "compoundedconcrete:white_lightgray_dye_61"

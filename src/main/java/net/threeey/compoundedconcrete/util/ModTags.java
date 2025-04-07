@@ -15,6 +15,10 @@ public class ModTags {
         public static final TagKey<Block> CC_CONCRETE = createTag("cc_concrete");
         public static final TagKey<Block> VANILLA_CONCRETE = createTag("vanilla_concrete");
 
+        public static final TagKey<Block> ALL_POWDER = createTag("powder");
+        public static final TagKey<Block> CC_POWDER = createTag("cc_powder");
+        public static final TagKey<Block> VANILLA_POWDER = createTag("vanilla_powder");
+
         public static final TagKey<Block> ALL_WOOL = createTag("wool");
         public static final TagKey<Block> CC_WOOL = createTag("cc_wool");
         public static final TagKey<Block> VANILLA_WOOL = createTag("vanilla_wool");

@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
+  "group": "cc_dyes",
   "ingredients": [
     {
       "item": "minecraft:white_dye"

@@ -35,6 +35,27 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_61);
         addDrop(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_71);
 
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_POWDER_12);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_POWDER_13);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_POWDER_14);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_POWDER_15);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_POWDER_16);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_POWDER_17);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_POWDER_21);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_POWDER_23);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_POWDER_25);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_POWDER_31);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_POWDER_32);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_POWDER_34);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_POWDER_35);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_POWDER_41);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_POWDER_43);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_POWDER_51);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_POWDER_52);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_POWDER_53);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_POWDER_61);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_POWDER_71);
+
         addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_12);
         addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_13);
         addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_14);

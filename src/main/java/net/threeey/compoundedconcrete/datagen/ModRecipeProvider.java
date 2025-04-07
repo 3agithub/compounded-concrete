@@ -193,7 +193,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerCCVanillaConcreteRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_CONCRETE_71,
                 Items.WHITE_DYE, 7, Items.LIGHT_GRAY_DYE, 1, 1, "white_lg_cc_71_v");
 
-
         offerCCModdedConcreteRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_CONCRETE_12,
                 ModItems.WHITE_LIGHTGRAY_DYE_12, "white_lg_cc_12_m");
 
@@ -253,6 +252,67 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         offerCCModdedConcreteRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_CONCRETE_71,
                 ModItems.WHITE_LIGHTGRAY_DYE_71, "white_lg_cc_71_m");
+
+        offerCCPowderRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_POWDER_12,
+                ModItems.WHITE_LIGHTGRAY_DYE_12, "white_lg_cp_12");
+
+        offerCCPowderRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_POWDER_13,
+                ModItems.WHITE_LIGHTGRAY_DYE_13, "white_lg_cp_13");
+
+        offerCCPowderRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_POWDER_14,
+                ModItems.WHITE_LIGHTGRAY_DYE_14, "white_lg_cp_14");
+
+        offerCCPowderRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_POWDER_15,
+                ModItems.WHITE_LIGHTGRAY_DYE_15, "white_lg_cp_15");
+
+        offerCCPowderRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_POWDER_16,
+                ModItems.WHITE_LIGHTGRAY_DYE_16, "white_lg_cp_16");
+
+        offerCCPowderRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_POWDER_17,
+                ModItems.WHITE_LIGHTGRAY_DYE_17, "white_lg_cp_17");
+
+        offerCCPowderRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_POWDER_21,
+                ModItems.WHITE_LIGHTGRAY_DYE_21, "white_lg_cp_21");
+
+        offerCCPowderRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_POWDER_23,
+                ModItems.WHITE_LIGHTGRAY_DYE_23, "white_lg_cp_23");
+
+        offerCCPowderRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_POWDER_25,
+                ModItems.WHITE_LIGHTGRAY_DYE_25, "white_lg_cp_25");
+
+        offerCCPowderRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_POWDER_31,
+                ModItems.WHITE_LIGHTGRAY_DYE_31, "white_lg_cp_31");
+
+        offerCCPowderRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_POWDER_32,
+                ModItems.WHITE_LIGHTGRAY_DYE_32, "white_lg_cp_32");
+
+        offerCCPowderRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_POWDER_34,
+                ModItems.WHITE_LIGHTGRAY_DYE_34, "white_lg_cp_34");
+
+        offerCCPowderRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_POWDER_35,
+                ModItems.WHITE_LIGHTGRAY_DYE_35, "white_lg_cp_35");
+
+        offerCCPowderRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_POWDER_41,
+                ModItems.WHITE_LIGHTGRAY_DYE_41, "white_lg_cp_41");
+
+        offerCCPowderRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_POWDER_43,
+                ModItems.WHITE_LIGHTGRAY_DYE_43, "white_lg_cp_43");
+
+        offerCCPowderRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_POWDER_51,
+                ModItems.WHITE_LIGHTGRAY_DYE_51, "white_lg_cp_51");
+
+        offerCCPowderRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_POWDER_52,
+                ModItems.WHITE_LIGHTGRAY_DYE_52, "white_lg_cp_52");
+
+        offerCCPowderRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_POWDER_53,
+                ModItems.WHITE_LIGHTGRAY_DYE_53, "white_lg_cp_53");
+
+        offerCCPowderRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_POWDER_61,
+                ModItems.WHITE_LIGHTGRAY_DYE_61, "white_lg_cp_61");
+
+        offerCCPowderRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_POWDER_71,
+                ModItems.WHITE_LIGHTGRAY_DYE_71, "white_lg_cp_71");
+
 
         offerCCVanillaWoolRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_WOOL_12,
                 Items.WHITE_DYE, 1, Items.LIGHT_GRAY_DYE, 2, 1, "white_lg_wool_12_v");
@@ -326,7 +386,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerCCVanillaWoolRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_WOOL_71,
                 Items.WHITE_DYE, 7, Items.LIGHT_GRAY_DYE, 1, 1, "white_lg_wool_71_v");
 
-
         offerCCModdedWoolRecipe(recipeExporter, ModBlocks.WHITE_LIGHTGRAY_WOOL_12,
                 ModItems.WHITE_LIGHTGRAY_DYE_12, "white_lg_wool_12_m");
 
@@ -394,6 +453,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(dye1, r1*multiplier)
                 .input(dye2, r2*multiplier)
                 .input(ModItems.FILLED_COLORED_CRAFTER)
+                .group("cc_dyes")
                 .criterion(hasItem(dye1), conditionsFromItem(dye1))
                 .criterion(hasItem(dye2), conditionsFromItem(dye2))
                 .offerTo(exporter, id);
@@ -404,6 +464,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(dye1, r1*multiplier)
                 .input(dye2, r2*multiplier)
                 .input(Blocks.WHITE_CONCRETE)
+                .group("cc_concrete")
                 .criterion(hasItem(dye1), conditionsFromItem(dye1))
                 .criterion(hasItem(dye2), conditionsFromItem(dye2))
                 .offerTo(exporter, id);
@@ -413,7 +474,19 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, output, 1)
                 .input(dye, 1)
                 .input(Blocks.WHITE_CONCRETE)
+                .group("cc_concrete")
                 .criterion(hasItem(dye), conditionsFromItem(dye))
+                .offerTo(exporter, id);
+    }
+
+    public static void offerCCPowderRecipe(RecipeExporter exporter, ItemConvertible output, ItemConvertible dye, String id) {
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, output, 8)
+                .input(dye)
+                .input(Blocks.SAND, 4)
+                .input(Blocks.GRAVEL, 4)
+                .group("cc_powder")
+                .criterion("has_sand", conditionsFromItem(Blocks.SAND))
+                .criterion("has_gravel", conditionsFromItem(Blocks.GRAVEL))
                 .offerTo(exporter, id);
     }
 
@@ -422,6 +495,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(dye1, r1*multiplier)
                 .input(dye2, r2*multiplier)
                 .input(Blocks.WHITE_WOOL)
+                .group("cc_wool")
                 .criterion(hasItem(dye1), conditionsFromItem(dye1))
                 .criterion(hasItem(dye2), conditionsFromItem(dye2))
                 .offerTo(exporter, id);
@@ -431,6 +505,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, output, 1)
                 .input(dye, 1)
                 .input(Blocks.WHITE_WOOL)
+                .group("cc_wool")
                 .criterion(hasItem(dye), conditionsFromItem(dye))
                 .offerTo(exporter, id);
     }

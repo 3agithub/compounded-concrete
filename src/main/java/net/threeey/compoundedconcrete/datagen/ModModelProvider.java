@@ -36,6 +36,27 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_61);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_71);
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_12);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_13);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_14);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_15);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_16);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_17);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_21);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_23);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_25);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_31);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_32);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_34);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_35);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_41);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_43);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_51);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_52);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_53);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_61);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_POWDER_71);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_12);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_13);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_WOOL_14);
