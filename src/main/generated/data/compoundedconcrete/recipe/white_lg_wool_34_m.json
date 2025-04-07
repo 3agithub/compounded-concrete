@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "compoundedconcrete:white_lightgray_dye_34"
+    },
+    {
+      "item": "minecraft:white_wool"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "compoundedconcrete:white_lightgray_wool_34"
+  }
+}

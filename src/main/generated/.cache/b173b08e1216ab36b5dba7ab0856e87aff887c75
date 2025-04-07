@@ -1,0 +1,8 @@
+// 1.21.1	2025-04-07T16:27:15.889184	Compounded Concrete/Tags for minecraft:block
+b4e7541dff2a98d44b8d04be4c9d5c28ab7904f4 data/compoundedconcrete/tags/block/wool.json
+fdaca0dd474d3b28d466066989bdf9247e078393 data/compoundedconcrete/tags/block/cc_concrete.json
+9318889f34b297b2ed3be416ea02241a187dcb1d data/minecraft/tags/block/mineable/pickaxe.json
+538d3f3fd4fe0db2af418023fbfbf71b63a9c918 data/compoundedconcrete/tags/block/vanilla_wool.json
+9318889f34b297b2ed3be416ea02241a187dcb1d data/compoundedconcrete/tags/block/vanilla_concrete.json
+51a8fc4c2eafad0416fa91421be048991d8e39f0 data/compoundedconcrete/tags/block/concrete.json
+2d7068e08e99362203966cd5fd23e7a2912a8601 data/compoundedconcrete/tags/block/cc_wool.json

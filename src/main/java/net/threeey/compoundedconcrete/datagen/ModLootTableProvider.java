@@ -20,5 +20,40 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_15);
         addDrop(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_16);
         addDrop(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_17);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_21);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_23);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_25);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_31);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_32);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_34);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_35);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_41);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_43);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_51);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_52);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_53);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_61);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_71);
+
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_12);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_13);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_14);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_15);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_16);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_17);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_21);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_23);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_25);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_31);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_32);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_34);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_35);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_41);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_43);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_51);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_52);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_53);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_61);
+        addDrop(ModBlocks.WHITE_LIGHTGRAY_WOOL_71);
     }
 }

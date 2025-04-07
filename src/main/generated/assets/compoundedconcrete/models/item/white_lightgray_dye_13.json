@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "compoundedconcrete:item/white_lightgray_dye_13"
+  }
+}

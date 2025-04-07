@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:white_lg_cc_23_m"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_lightgray_dye_23": {
+      "conditions": {
+        "items": [
+          {
+            "items": "compoundedconcrete:white_lightgray_dye_23"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_white_lightgray_dye_23"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:white_lg_cc_23_m"
+    ]
+  }
+}

@@ -40,7 +40,21 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.WHITE_LIGHTGRAY_DYE_14)
                 .add(ModItems.WHITE_LIGHTGRAY_DYE_15)
                 .add(ModItems.WHITE_LIGHTGRAY_DYE_16)
-                .add(ModItems.WHITE_LIGHTGRAY_DYE_17);
+                .add(ModItems.WHITE_LIGHTGRAY_DYE_17)
+                .add(ModItems.WHITE_LIGHTGRAY_DYE_21)
+                .add(ModItems.WHITE_LIGHTGRAY_DYE_23)
+                .add(ModItems.WHITE_LIGHTGRAY_DYE_25)
+                .add(ModItems.WHITE_LIGHTGRAY_DYE_31)
+                .add(ModItems.WHITE_LIGHTGRAY_DYE_32)
+                .add(ModItems.WHITE_LIGHTGRAY_DYE_34)
+                .add(ModItems.WHITE_LIGHTGRAY_DYE_35)
+                .add(ModItems.WHITE_LIGHTGRAY_DYE_41)
+                .add(ModItems.WHITE_LIGHTGRAY_DYE_43)
+                .add(ModItems.WHITE_LIGHTGRAY_DYE_51)
+                .add(ModItems.WHITE_LIGHTGRAY_DYE_52)
+                .add(ModItems.WHITE_LIGHTGRAY_DYE_53)
+                .add(ModItems.WHITE_LIGHTGRAY_DYE_61)
+                .add(ModItems.WHITE_LIGHTGRAY_DYE_71);
 
         getOrCreateTagBuilder(ModTags.Items.ALL_DYES)
                 .addTag(ModTags.Items.CC_DYES)

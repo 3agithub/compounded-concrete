@@ -35,6 +35,20 @@ public class ModItemGroups {
                         entries.add(ModItems.WHITE_LIGHTGRAY_DYE_15);
                         entries.add(ModItems.WHITE_LIGHTGRAY_DYE_16);
                         entries.add(ModItems.WHITE_LIGHTGRAY_DYE_17);
+                        entries.add(ModItems.WHITE_LIGHTGRAY_DYE_21);
+                        entries.add(ModItems.WHITE_LIGHTGRAY_DYE_23);
+                        entries.add(ModItems.WHITE_LIGHTGRAY_DYE_25);
+                        entries.add(ModItems.WHITE_LIGHTGRAY_DYE_31);
+                        entries.add(ModItems.WHITE_LIGHTGRAY_DYE_32);
+                        entries.add(ModItems.WHITE_LIGHTGRAY_DYE_34);
+                        entries.add(ModItems.WHITE_LIGHTGRAY_DYE_35);
+                        entries.add(ModItems.WHITE_LIGHTGRAY_DYE_41);
+                        entries.add(ModItems.WHITE_LIGHTGRAY_DYE_43);
+                        entries.add(ModItems.WHITE_LIGHTGRAY_DYE_51);
+                        entries.add(ModItems.WHITE_LIGHTGRAY_DYE_52);
+                        entries.add(ModItems.WHITE_LIGHTGRAY_DYE_53);
+                        entries.add(ModItems.WHITE_LIGHTGRAY_DYE_61);
+                        entries.add(ModItems.WHITE_LIGHTGRAY_DYE_71);
                     })
                     .build());
 
@@ -50,6 +64,49 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_15);
                         entries.add(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_16);
                         entries.add(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_17);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_21);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_23);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_25);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_31);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_32);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_34);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_35);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_41);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_43);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_51);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_52);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_53);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_61);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_CONCRETE_71);
+                    })
+                    .build());
+
+    public static final ItemGroup WOOL = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(CompoundedConcrete.MOD_ID, "cc_wool"),
+            FabricItemGroup.builder()
+                    .icon(() -> new ItemStack(ModBlocks.WHITE_LIGHTGRAY_WOOL_12))
+                    .displayName(Text.translatable("itemgroup.compoundedconcrete.wool"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_WOOL_12);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_WOOL_13);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_WOOL_14);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_WOOL_15);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_WOOL_16);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_WOOL_17);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_WOOL_21);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_WOOL_23);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_WOOL_25);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_WOOL_31);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_WOOL_32);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_WOOL_34);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_WOOL_35);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_WOOL_41);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_WOOL_43);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_WOOL_51);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_WOOL_52);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_WOOL_53);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_WOOL_61);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_WOOL_71);
                     })
                     .build());
 
