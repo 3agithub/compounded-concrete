@@ -506,6 +506,65 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerCarpetRecipe(recipeExporter,
                 ModBlocks.WHITE_LIGHTGRAY_CARPET_71, ModBlocks.WHITE_LIGHTGRAY_WOOL_71);
 
+        /*offerStainedGlassDyeingRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_GLASS_12, ModItems.WHITE_LIGHTGRAY_DYE_12);*/
+
+        offerStainedGlassDyeingRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_GLASS_13, ModItems.WHITE_LIGHTGRAY_DYE_13);
+
+        offerStainedGlassDyeingRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_GLASS_14, ModItems.WHITE_LIGHTGRAY_DYE_14);
+
+        offerStainedGlassDyeingRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_GLASS_15, ModItems.WHITE_LIGHTGRAY_DYE_15);
+
+        offerStainedGlassDyeingRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_GLASS_16, ModItems.WHITE_LIGHTGRAY_DYE_16);
+
+        offerStainedGlassDyeingRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_GLASS_17, ModItems.WHITE_LIGHTGRAY_DYE_17);
+
+        offerStainedGlassDyeingRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_GLASS_21, ModItems.WHITE_LIGHTGRAY_DYE_21);
+
+        offerStainedGlassDyeingRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_GLASS_23, ModItems.WHITE_LIGHTGRAY_DYE_23);
+
+        offerStainedGlassDyeingRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_GLASS_25, ModItems.WHITE_LIGHTGRAY_DYE_25);
+
+        offerStainedGlassDyeingRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_GLASS_31, ModItems.WHITE_LIGHTGRAY_DYE_31);
+
+        offerStainedGlassDyeingRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_GLASS_32, ModItems.WHITE_LIGHTGRAY_DYE_32);
+
+        offerStainedGlassDyeingRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_GLASS_34, ModItems.WHITE_LIGHTGRAY_DYE_34);
+
+        offerStainedGlassDyeingRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_GLASS_35, ModItems.WHITE_LIGHTGRAY_DYE_35);
+
+        offerStainedGlassDyeingRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_GLASS_41, ModItems.WHITE_LIGHTGRAY_DYE_41);
+
+        offerStainedGlassDyeingRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_GLASS_43, ModItems.WHITE_LIGHTGRAY_DYE_43);
+
+        offerStainedGlassDyeingRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_GLASS_51, ModItems.WHITE_LIGHTGRAY_DYE_51);
+
+        offerStainedGlassDyeingRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_GLASS_52, ModItems.WHITE_LIGHTGRAY_DYE_52);
+
+        offerStainedGlassDyeingRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_GLASS_53, ModItems.WHITE_LIGHTGRAY_DYE_53);
+
+        offerStainedGlassDyeingRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_GLASS_61, ModItems.WHITE_LIGHTGRAY_DYE_61);
+
+        offerStainedGlassDyeingRecipe(recipeExporter,
+                ModBlocks.WHITE_LIGHTGRAY_GLASS_71, ModItems.WHITE_LIGHTGRAY_DYE_71);
     }
 
     public static void offerCCDyesRecipe(RecipeExporter exporter, ItemConvertible output, ItemConvertible dye1, int r1, ItemConvertible dye2, int r2, int multiplier, String id) {

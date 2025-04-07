@@ -23,9 +23,9 @@ public class ModTags {
         public static final TagKey<Block> CC_WOOL = createTag("cc_wool");
         public static final TagKey<Block> VANILLA_WOOL = createTag("vanilla_wool");
 
-        public static final TagKey<Block> ALL_CARPET = createTag("carpet");
-        public static final TagKey<Block> CC_CARPET = createTag("cc_carpet");
-        public static final TagKey<Block> VANILLA_CARPET = createTag("vanilla_carpet");
+        public static final TagKey<Block> ALL_CARPETS = createTag("carpets");
+        public static final TagKey<Block> CC_CARPETS = createTag("cc_carpets");
+        public static final TagKey<Block> VANILLA_CARPETS = createTag("vanilla_carpets");
 
 
         private static TagKey<Block> createTag(String name) {

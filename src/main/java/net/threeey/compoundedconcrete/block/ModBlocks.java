@@ -1098,6 +1098,88 @@ public class ModBlocks {
             }
     );
 
+    public static final Block WHITE_LIGHTGRAY_GLASS_12 = registerBlock("white_lightgray_glass_12",
+            createStainedGlassBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_12"), "tooltip.compoundedconcrete.white_lightgray_12"));
+
+    public static final Block WHITE_LIGHTGRAY_GLASS_13 = registerBlock("white_lightgray_glass_13",
+            createStainedGlassBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_13"), "tooltip.compoundedconcrete.white_lightgray_13"));
+
+    public static final Block WHITE_LIGHTGRAY_GLASS_14 = registerBlock("white_lightgray_glass_14",
+            createStainedGlassBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_14"), "tooltip.compoundedconcrete.white_lightgray_14"));
+
+    public static final Block WHITE_LIGHTGRAY_GLASS_15 = registerBlock("white_lightgray_glass_12",
+            createStainedGlassBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_15"), "tooltip.compoundedconcrete.white_lightgray_15"));
+
+    public static final Block WHITE_LIGHTGRAY_GLASS_16 = registerBlock("white_lightgray_glass_16",
+            createStainedGlassBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_16"), "tooltip.compoundedconcrete.white_lightgray_16"));
+
+    public static final Block WHITE_LIGHTGRAY_GLASS_17 = registerBlock("white_lightgray_glass_17",
+            createStainedGlassBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_17"), "tooltip.compoundedconcrete.white_lightgray_16"));
+
+    public static final Block WHITE_LIGHTGRAY_GLASS_21 = registerBlock("white_lightgray_glass_21",
+            createStainedGlassBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_21"), "tooltip.compoundedconcrete.white_lightgray_21"));
+
+    public static final Block WHITE_LIGHTGRAY_GLASS_23 = registerBlock("white_lightgray_glass_23",
+            createStainedGlassBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_23"), "tooltip.compoundedconcrete.white_lightgray_23"));
+
+    public static final Block WHITE_LIGHTGRAY_GLASS_25 = registerBlock("white_lightgray_glass_25",
+            createStainedGlassBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_25"), "tooltip.compoundedconcrete.white_lightgray_25"));
+
+    public static final Block WHITE_LIGHTGRAY_GLASS_31 = registerBlock("white_lightgray_glass_31",
+            createStainedGlassBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_31"), "tooltip.compoundedconcrete.white_lightgray_31"));
+
+    public static final Block WHITE_LIGHTGRAY_GLASS_32 = registerBlock("white_lightgray_glass_32",
+            createStainedGlassBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_32"), "tooltip.compoundedconcrete.white_lightgray_32"));
+
+    public static final Block WHITE_LIGHTGRAY_GLASS_34 = registerBlock("white_lightgray_glass_34",
+            createStainedGlassBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_34"), "tooltip.compoundedconcrete.white_lightgray_34"));
+
+    public static final Block WHITE_LIGHTGRAY_GLASS_35 = registerBlock("white_lightgray_glass_35",
+            createStainedGlassBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_35"), "tooltip.compoundedconcrete.white_lightgray_35"));
+
+    public static final Block WHITE_LIGHTGRAY_GLASS_41 = registerBlock("white_lightgray_glass_41",
+            createStainedGlassBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_41"), "tooltip.compoundedconcrete.white_lightgray_41"));
+
+    public static final Block WHITE_LIGHTGRAY_GLASS_43 = registerBlock("white_lightgray_glass_43",
+            createStainedGlassBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_43"), "tooltip.compoundedconcrete.white_lightgray_43"));
+
+    public static final Block WHITE_LIGHTGRAY_GLASS_51 = registerBlock("white_lightgray_glass_51",
+            createStainedGlassBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_51"), "tooltip.compoundedconcrete.white_lightgray_51"));
+
+    public static final Block WHITE_LIGHTGRAY_GLASS_52 = registerBlock("white_lightgray_glass_52",
+            createStainedGlassBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_52"), "tooltip.compoundedconcrete.white_lightgray_52"));
+
+    public static final Block WHITE_LIGHTGRAY_GLASS_53 = registerBlock("white_lightgray_glass_53",
+            createStainedGlassBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_53"), "tooltip.compoundedconcrete.white_lightgray_53"));
+
+    public static final Block WHITE_LIGHTGRAY_GLASS_61 = registerBlock("white_lightgray_glass_61",
+            createStainedGlassBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_61"), "tooltip.compoundedconcrete.white_lightgray_61"));
+
+    public static final Block WHITE_LIGHTGRAY_GLASS_71 = registerBlock("white_lightgray_glass_71",
+            createStainedGlassBlock(DyeColor.valueOf("WHITE_LIGHTGRAY_71"), "tooltip.compoundedconcrete.white_lightgray_71"));
+
+
+
+    private static Block createStainedGlassBlock(DyeColor color, String tt) {
+        return new StainedGlassBlock(color, AbstractBlock.Settings.create()
+                .mapColor(color)
+                .instrument(NoteBlockInstrument.HAT)
+                .strength(0.3F)
+                .sounds(BlockSoundGroup.GLASS)
+                .nonOpaque()
+                .allowsSpawning(Blocks::never)
+                .solidBlock(Blocks::never)
+                .suffocates(Blocks::never)
+                .blockVision(Blocks::never)
+        ) {
+            @Override
+            public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                tooltip.add(Text.translatable(tt));
+                super.appendTooltip(stack, context, tooltip, options);
+            }
+        };
+    }
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(CompoundedConcrete.MOD_ID, name), block);

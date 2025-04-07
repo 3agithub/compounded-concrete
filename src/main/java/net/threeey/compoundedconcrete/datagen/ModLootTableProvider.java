@@ -97,5 +97,26 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_53);
         addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_61);
         addDrop(ModBlocks.WHITE_LIGHTGRAY_CARPET_71);
+
+        addDropWithSilkTouch(ModBlocks.WHITE_LIGHTGRAY_GLASS_12);
+        addDropWithSilkTouch(ModBlocks.WHITE_LIGHTGRAY_GLASS_13);
+        addDropWithSilkTouch(ModBlocks.WHITE_LIGHTGRAY_GLASS_14);
+        addDropWithSilkTouch(ModBlocks.WHITE_LIGHTGRAY_GLASS_15);
+        addDropWithSilkTouch(ModBlocks.WHITE_LIGHTGRAY_GLASS_16);
+        addDropWithSilkTouch(ModBlocks.WHITE_LIGHTGRAY_GLASS_17);
+        addDropWithSilkTouch(ModBlocks.WHITE_LIGHTGRAY_GLASS_21);
+        addDropWithSilkTouch(ModBlocks.WHITE_LIGHTGRAY_GLASS_23);
+        addDropWithSilkTouch(ModBlocks.WHITE_LIGHTGRAY_GLASS_25);
+        addDropWithSilkTouch(ModBlocks.WHITE_LIGHTGRAY_GLASS_31);
+        addDropWithSilkTouch(ModBlocks.WHITE_LIGHTGRAY_GLASS_32);
+        addDropWithSilkTouch(ModBlocks.WHITE_LIGHTGRAY_GLASS_34);
+        addDropWithSilkTouch(ModBlocks.WHITE_LIGHTGRAY_GLASS_35);
+        addDropWithSilkTouch(ModBlocks.WHITE_LIGHTGRAY_GLASS_41);
+        addDropWithSilkTouch(ModBlocks.WHITE_LIGHTGRAY_GLASS_43);
+        addDropWithSilkTouch(ModBlocks.WHITE_LIGHTGRAY_GLASS_51);
+        addDropWithSilkTouch(ModBlocks.WHITE_LIGHTGRAY_GLASS_52);
+        addDropWithSilkTouch(ModBlocks.WHITE_LIGHTGRAY_GLASS_53);
+        addDropWithSilkTouch(ModBlocks.WHITE_LIGHTGRAY_GLASS_61);
+        addDropWithSilkTouch(ModBlocks.WHITE_LIGHTGRAY_GLASS_71);
     }
 }

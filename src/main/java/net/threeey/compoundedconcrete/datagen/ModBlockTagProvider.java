@@ -171,7 +171,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .addTag(ModTags.Blocks.CC_WOOL)
                 .addTag(ModTags.Blocks.VANILLA_WOOL);
 
-        getOrCreateTagBuilder(ModTags.Blocks.CC_CARPET)
+        getOrCreateTagBuilder(ModTags.Blocks.CC_CARPETS)
                 .add(Blocks.WHITE_CARPET)
                 .add(Blocks.LIGHT_GRAY_CARPET)
                 .add(Blocks.GRAY_CARPET)
@@ -189,7 +189,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(Blocks.MAGENTA_CARPET)
                 .add(Blocks.PINK_CARPET);
 
-        getOrCreateTagBuilder(ModTags.Blocks.VANILLA_CARPET)
+        getOrCreateTagBuilder(ModTags.Blocks.VANILLA_CARPETS)
                 .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_12)
                 .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_13)
                 .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_14)
@@ -211,8 +211,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_61)
                 .add(ModBlocks.WHITE_LIGHTGRAY_CARPET_71);
 
-        getOrCreateTagBuilder(ModTags.Blocks.ALL_CARPET)
-                .addTag(ModTags.Blocks.CC_CARPET)
-                .addTag(ModTags.Blocks.VANILLA_CARPET);
+        getOrCreateTagBuilder(ModTags.Blocks.ALL_CARPETS)
+                .addTag(ModTags.Blocks.CC_CARPETS)
+                .addTag(ModTags.Blocks.VANILLA_CARPETS);
     }
 }

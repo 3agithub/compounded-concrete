@@ -77,6 +77,27 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_53, ModBlocks.WHITE_LIGHTGRAY_CARPET_53);
         blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_61, ModBlocks.WHITE_LIGHTGRAY_CARPET_61);
         blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.WHITE_LIGHTGRAY_WOOL_71, ModBlocks.WHITE_LIGHTGRAY_CARPET_71);
+
+        /*blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_GLASS_12);*/
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_GLASS_13);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_GLASS_14);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_GLASS_15);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_GLASS_16);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_GLASS_17);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_GLASS_21);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_GLASS_23);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_GLASS_25);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_GLASS_31);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_GLASS_32);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_GLASS_34);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_GLASS_35);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_GLASS_41);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_GLASS_43);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_GLASS_51);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_GLASS_52);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_GLASS_53);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_GLASS_61);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_LIGHTGRAY_GLASS_71);
     }
 
     @Override

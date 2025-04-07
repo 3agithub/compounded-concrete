@@ -139,11 +139,11 @@ public class ModItemGroups {
                     })
                     .build());
 
-    public static final ItemGroup CARPET = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(CompoundedConcrete.MOD_ID, "cc_wool"),
+    public static final ItemGroup CARPETS = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(CompoundedConcrete.MOD_ID, "cc_carpets"),
             FabricItemGroup.builder()
                     .icon(() -> new ItemStack(ModBlocks.WHITE_LIGHTGRAY_CARPET_12))
-                    .displayName(Text.translatable("itemgroup.compoundedconcrete.carpet"))
+                    .displayName(Text.translatable("itemgroup.compoundedconcrete.carpets"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_12);
                         entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_13);
@@ -165,6 +165,35 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_53);
                         entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_61);
                         entries.add(ModBlocks.WHITE_LIGHTGRAY_CARPET_71);
+                    })
+                    .build());
+
+    public static final ItemGroup GLASS = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(CompoundedConcrete.MOD_ID, "cc_glass"),
+            FabricItemGroup.builder()
+                    .icon(() -> new ItemStack(ModBlocks.WHITE_LIGHTGRAY_GLASS_12))
+                    .displayName(Text.translatable("itemgroup.compoundedconcrete.glass"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_GLASS_12);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_GLASS_13);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_GLASS_14);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_GLASS_15);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_GLASS_16);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_GLASS_17);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_GLASS_21);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_GLASS_23);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_GLASS_25);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_GLASS_31);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_GLASS_32);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_GLASS_34);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_GLASS_35);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_GLASS_41);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_GLASS_43);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_GLASS_51);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_GLASS_52);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_GLASS_53);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_GLASS_61);
+                        entries.add(ModBlocks.WHITE_LIGHTGRAY_GLASS_71);
                     })
                     .build());
 
