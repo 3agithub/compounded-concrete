@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_colored_crafter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "compoundedconcrete:colored_crafter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dye_bit": {
+      "conditions": {
+        "items": [
+          {
+            "items": "compoundedconcrete:dye_bit"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "compoundedconcrete:filled_colored_crafter"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_colored_crafter",
+      "has_dye_bit"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "compoundedconcrete:filled_colored_crafter"
+    ]
+  }
+}

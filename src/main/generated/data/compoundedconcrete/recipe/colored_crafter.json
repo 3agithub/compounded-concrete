@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:white_concrete"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "N",
+    "C",
+    "C"
+  ],
+  "result": {
+    "count": 1,
+    "id": "compoundedconcrete:colored_crafter"
+  }
+}
